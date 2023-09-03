@@ -5,7 +5,7 @@
   ### Caixa Preta
 ## Daniel da Conceição Alferes - N548JF0
   ### Algoritmo
-  ### Caixa Branca
+  ### Caixa Preta
 ## Leonardo Xavier de Abreu - N580HH2
   ### Caixa Preta
   ### Caixa Branca
