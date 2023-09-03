@@ -13,5 +13,12 @@ class TestTrianguloFunctions(unittest.TestCase):
         # Teste com lados que formam um triângulo escaleno
         self.assertTrue(eh_triangulo(3, 4, 5))
 
+    def test_eh_triangulo_invalido(self):
+        # Teste com lados negativos (não deve formar triângulo)
+        self.assertFalse(eh_triangulo(-1, -2, -3))
+
+        # Teste com lados que possuem um valor igual a zero (não deve formar triângulo)
+        self.assertFalse(eh_triangulo(0, 1, 2))
+
 if __name__ == '__main__':
     unittest.main()
