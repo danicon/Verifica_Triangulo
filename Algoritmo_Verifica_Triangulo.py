@@ -2,6 +2,15 @@
 def eh_triangulo(L1, L2, L3):
     return (L1 + L2 >= L3) and (L1 + L3 >= L2) and (L2 + L3 >= L1) and (L1 != 0) and (L2 != 0) and (L3 != 0)
 
+#Função para determinar o tipo de triângulo
+def tipo_triangulo(L1, L2, L3):
+    if L1 == L2 == L3:
+        return "Equilátero"
+    elif L1 == L2 or L1 == L3 or L2 == L3:
+        return "Isósceles"
+    else:
+        return "Escaleno"
+
 # Linha divisória para melhorar a legibilidade da saída
 divisoria_linha = "\n------------------------------------------------------------\n"
 
